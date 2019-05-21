@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+<header>
+    <div class="title"> Journey</div>
+    <div class="sidemenu">
+        <a href="#">
+            <div class="calendar"></div>
+        </a>
+        <a href="#">
+            <div class="forum"></div>
+        </a>
+        <a href="#">
+            <div class="compass"></div>
+        </a>
+        <div class="separator"></div>
+
+    </div>
+    <div class="greetings"> Welcome, <a href="#">Log in </a> or <a href="#"> Sign up </a>
+    </div>
+
+</header>
+
+<div class="container">
+
+    <form class="loginform" action="action_page.php">
+
+        <ul class="choice">
+            <li class="sign">Sign up</li>
+            <li class="log"><a href="#">Log in</a></li>
+        </ul>
+
+        <div class="cube"></div>
+
+
+        <div class="socialbuttons">
+            <button class="social f">
+                <div class="logoF">f</div>
+                <div class="separatorF"></div>
+                <span class="facebook">Facebook</span>
+            </button>
+            <button class="social g">
+                <div class="logoG">G+</div>
+                <div class="separatorG"></div>
+                <span class="google">Google</span>
+            </button>
+        </div>
+        <div class="alternative">
+            <div class="left">
+            </div>
+            <div class="or"> or</div>
+            <div class="right">
+            </div>
+        </div>
+
+        <label for="firstname"></label>
+        <input type="text" id="firstname" name="firstname" placeholder="Name">
+
+        <label for="lastname"></label>
+        <input type="text" id="lastname" name="lastname" placeholder="Last Name">
+
+        <label for="e-mail"></label>
+        <input id="e-mail" name="e-mail" placeholder="E-mail">
+
+        <label for="password"></label>
+        <input id="password" name="password" placeholder="Choose Password" required>
+
+        <label for="confirmpass"></label>
+        <input id="confirmpass" name="confirmpass" placeholder="Confirm Password" required>
+
+        <label>
+            <input type="checkbox" checked name="agree"> Agree to our <a href="#">
+            Terms & Conditions </a>
+        </label>
+
+
+        <input type="submit" value="Create Account" autofocus>
+
+    </form>
+</div>
+</body>
+</html>
