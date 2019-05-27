@@ -1,0 +1,152 @@
+/*@import url('https://fonts.googleapis.com/css?family=Arimo:400,700&display=swap');   <==alternative method*/
+
+.container {
+    margin: 0 auto;
+    width: 1192px;
+    height: 736px;
+    padding: 24px 30px 32px 22px;
+    background-color: #3a4965;
+    font-family: 'Arimo-bold', "Courier New", sans-serif;
+    box-sizing: border-box;
+}
+
+.pricesplan {
+    width: 1140px;
+    height: 680px;
+    font-size: 16pt;
+    color: rgba(72, 72, 72, 255);
+    text-align: center;
+    text-transform: uppercase;
+    border-collapse: collapse;
+}
+
+.line>* {
+    height: 69px;
+    vertical-align: middle;
+}
+
+.line:nth-of-type(odd){background-color: #e3e3e3;}
+.line:nth-of-type(even){background-color: #f2f2f2;}
+
+            /* alternative way tr:nth-child(even) {background-color: #f2f2f2;}*/
+            /* alternative way tr:nth-child(odd) {background-color: #e3e3e3;}*/
+
+.pricesplan td, th {border-right: 1px solid #dadada;}
+
+.pricesplan td:hover {background-color: #9effca;}
+.pricesplan th:hover {background-color: #16FF96;}
+
+.firstcell {
+    display: table-cell;
+    background-color: #fafafa;
+    width: 310px;
+    height: 156px;
+    font-weight: bold;
+
+}
+.choice {
+    font-size: 18pt;
+    color: rgba(72, 72, 72, 255);
+}
+.plan {
+    font-size: 30pt;
+    color: rgba(72, 72, 72, 255);
+    text-align: center;
+}
+.pl {width: 277px;
+    height: 70px;
+    font-weight: bold;
+}
+
+.standard {
+    font-size: 24pt;
+    color: rgba(255, 255, 255, 255);
+    background-color: #89c331;
+}
+.ultimate{
+    font-size: 30pt;
+    color: rgba(255, 255, 255, 255);
+    background-color: #f04a56;
+}
+.premium {
+    font-size: 24pt;
+    color: rgba(255, 255, 255, 255);
+    background-color: #20807c;
+}
+.lastrow {height: 111px;}
+
+.lastbuttons a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 255);
+}
+
+.lastbuttons {
+    height: 110px;
+}
+.button {
+    width: 192px;
+    height: 49px;
+    font-size: 16pt;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+.contact {background-color: #484848;}
+.buygreen {background-color:#89c331;}
+.buyred {background-color:#f04a56;}
+.buygray {background-color:#20807c;}
+
+.button:hover{transform: skewX(-15deg);
+    font-weight: bold;
+}
+.cont {background-color: #dddddd;}
+.buygr {background-color:#eeeeee;}
+.buyr {background-color: #f4f4f4;}
+
+.price {
+    width: 277px;
+    height: 86px;
+}
+.dollars {
+    font-size: 60pt;
+    font-weight: bold;
+    text-align: left;
+    float: left;
+    letter-spacing: -10px;
+    margin-left: 15px;
+}
+.cents{
+    display: block;
+    font-weight: bold;
+
+    font-size: 24pt;
+    margin-top: 8px;
+    text-align: left;
+}
+.month{
+    display: block;
+    font-size: 18pt;
+    text-align: left;
+}
+.pricesplan i { margin: 12px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
