@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
+.container {
+    background-image: url(http://sfwallpaper.com/images/hd-star-wallpaper-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    perspective: 600px;
+    margin: 0 auto;
+}
+
+.animated {
+    text-align: left;
+    line-height: 1.5em;
+    color: #FEF512;
+    font-size: 70px;
+    position: relative;
+    transform-origin: 10% 100%;
+    transform: rotateX(30deg);
+    animation: crawl 30s linear;
+    animation-iteration-count: infinite;
+    width: 70%;
+}
+
+.heading {
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.animated p { margin-bottom: 40px;}
+
+p:nth-child(3) {text-align: justify;}
+
+@keyframes crawl {
+    0% {
+        top: 500px;
+        transform: rotateX(25deg) translateY(400px);
+    }
+    100% {
+        top: -1000px;
+        transform: rotateX(25deg) translateY(-300px);
+    }
+}
+
